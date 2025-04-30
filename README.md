@@ -4,6 +4,8 @@ This project implements a clock gating circuit using Verilog to demonstrate a fu
 
 Clock gating is a technique used in digital design to disable the clock signal to portions of the circuit that do not need to operate at a given time. Instead of sending the main clock (clk) directly to every module, a gated clock (gclk) is generated based on an enable signal (en). If en is high, the module receives the clock; otherwise, the clock is shut off.
 
+![image](https://github.com/user-attachments/assets/90055c6b-f60f-46ad-a45f-6518f7bdc172)
+
 
 Files Included:
 
