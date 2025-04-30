@@ -1,6 +1,6 @@
 # Low-Power-Clock-Gating-Implementation-in-Verilog
 
-This project implements a clock gating circuit using Verilog to demonstrate a fundamental low-power design technique commonly used in digital systems. Clock gating helps reduce dynamic power consumption by selectively disabling the clock signal to idle components, thereby minimizing unnecessary switching activity.
+This design implements a clock gating circuit using Verilog to demonstrate a fundamental low-power design technique commonly used in digital systems. Clock gating helps reduce dynamic power consumption by selectively disabling the clock signal to idle components, thereby minimizing unnecessary switching activity.
 
 Clock gating is a technique used in digital design to disable the clock signal to portions of the circuit that do not need to operate at a given time. Instead of sending the main clock (clk) directly to every module, a gated clock (gclk) is generated based on an enable signal (en). If en is high, the module receives the clock; otherwise, the clock is shut off.
 
